@@ -198,6 +198,7 @@
   justify-content: space-between;
   align-items: center;
   width: auto;
+
 }
 .transcription-text> img {
   cursor: pointer;
@@ -313,4 +314,10 @@ td {
   border-radius: 10px;
   outline: 1px solid #0048AD;
 
+}
+.text {
+  font-size: 24px;
+  margin-top: 32px;
+  padding-top: 23px;
+  border-top: 1px solid #c1c1c2;
 }

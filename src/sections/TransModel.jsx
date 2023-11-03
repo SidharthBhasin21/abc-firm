@@ -10,7 +10,7 @@ const TransModel = ({ isTransModelVisible, data, hideTransModal }) => {
             <h2>Transctiption Modal</h2>{" "}
             <img src={cross} onClick={() => hideTransModal()} />
           </div>
-          <p>{data ? data : `Loading...`}</p>
+          <p className="text">{data ? data : `Loading...`}</p>
         </div>
       </div>
     )
